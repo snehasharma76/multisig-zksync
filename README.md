@@ -32,6 +32,15 @@ cp .env.example .env
 npx hardhat deploy-zksync --network zkSyncTestnet
 ```
 
+## Deployment Result
+
+The contract was successfully deployed to ZKSync Era Sepolia testnet:
+
+- **Contract Address**: `0x3f3EdA70B1732644F5C8EA8c88D7De978ecF791f`
+- **Initial Owner**: `0xb18109b3b6B8Ba5188cbDdBd2bb6046fa69F605C`
+
+You can view the contract on the ZKSync Era Sepolia Explorer: [Explorer Link](https://explorer.sepolia.era.zksync.dev/address/0x3f3EdA70B1732644F5C8EA8c88D7De978ecF791f)
+
 ## Contract Usage
 
 The contract includes the following main functions:
